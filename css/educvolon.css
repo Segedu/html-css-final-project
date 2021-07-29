@@ -1,0 +1,84 @@
+:root {
+  --black: #2a3d45;
+  --whitefont: #ffffff;
+  --myfont: "ubuntu";
+}
+body {
+  margin: 0;
+  font-family: var(--myfont);
+}
+nav {
+  display: flex;
+  background-color: var(--black);
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  align-items: center;
+  font-size: larger;
+  color: var(--whitefont);
+}
+h1 {
+  font-family: var(--myfont);
+}
+.bgContainer {
+  height: 400px;
+}
+.bgContainer img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.bgContainer h1 {
+  position: absolute;
+  margin: 12%;
+  font-size: 42px;
+  z-index: 1;
+  color: var(--whitefont);
+  text-shadow: 2px 4px 4px black;
+}
+.bgContainer span {
+  font-size: 22px;
+}
+.informationContainer article {
+  width: 70%;
+  height: 300px;
+  padding-left: 3%;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+}
+.cardsContainer article {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: 30%;
+  padding: 5%;
+}
+.cardsContainer img {
+  width: 100%;
+}
+
+.cardsContainer a {
+  color: var(--black);
+}
+form {
+  display: flex;
+  border: 2px solid black;
+  padding: 5%;
+  border-radius: 8px;
+  background-color: #383131;
+}
+footer {
+  height: 100px;
+  background-color: var(--blue);
+}
